@@ -4,28 +4,33 @@ const Favstack = () => {
   const fav = [
     {
       id: 1,
-      name: "coding",
-      deskripsi: "test",
+      name: "HTML CSS ",
+      deskripsi: "Advanced",
     },
     {
       id: 2,
-      name: "nyanyi",
-      deskripsi: "test",
+      name: "MY-SQL",
+      deskripsi: "Advanced",
     },
     {
       id: 3,
-      name: "nyanyi",
-      deskripsi: "test",
+      name: "React Vite",
+      deskripsi: "Advanced",
     },
     {
       id: 4,
-      name: "nyanyi",
-      deskripsi: "test",
+      name: "PHP",
+      deskripsi: "Advanced",
     },
     {
       id: 5,
-      name: "nyanyi",
-      deskripsi: "test",
+      name: "Microsoft Office",
+      deskripsi: "Advanced",
+    },
+    {
+      id: 6,
+      name: "Network Infrastructure",
+      deskripsi: "Intermediate",
     },
   ];
   return (
@@ -34,7 +39,6 @@ const Favstack = () => {
       <h1 className="text-[30px] font-extrabold">
         My Favorite <span className="text-blue-500">Stack</span>{" "}
       </h1>
-      <p className="text-[17px]">test</p>
       <div className="flex gap-2 flex-wrap my-5 mx-2 items-center justify-center">
         {fav.map((i) => (
           <div className="card w-96 bg-base-300 shadow-xl ">

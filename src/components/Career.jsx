@@ -6,21 +6,21 @@ const Career = () => {
   const karir = [
     {
       id: 1,
-      name: "coding",
-      deskripsi: "test",
-      logo: <FaReact size={30} color="red"/>,
+      name: "Technical Support",
+      deskripsi: "Sebagai technical support, aku selalu siap membantu memecahkan masalah teknis dengan kecepatan dan ketelitian, memastikan semuanya berjalan lancar untuk pengguna",
+      logo: <FaReact size={30} color="green"/>,
     },
     {
       id: 2,
-      name: "nyanyi",
-      deskripsi: "test",
-      logo: <FaImage size={30} />,
+      name: "web Programming",
+      deskripsi: "Sebagai web developer, saya menciptakan dunia digital yang menarik dan fungsional, membangun jembatan antara ide dan realitas melalui kode",
+      logo: <FaReact size={30} color="green"/>,
     },
     {
       id: 3,
-      name: "nyanyi",
-      deskripsi: "test",
-      logo: <FaReact size={30}/>,
+      name: "Data Analist",
+      deskripsi: "Menjadi data analyst berarti memiliki kemampuan untuk melihat di balik angka, menemukan makna dalam data, dan mengomunikasikannya dengan jelas kepada tim.",
+      logo: <FaReact size={30} color="green"/>,
     },
   ];
 
@@ -31,7 +31,6 @@ const Career = () => {
         <h5 className="text-[30px] font-extrabold">
           My Work <span className="text-blue-500">Specaility</span>
         </h5>
-        <p className="text-[17px]">teks</p>
       </div>
       <div className="flex gap-2 flex-wrap my-5 mx-2 items-center justify-center">
         {karir.map((i) => (

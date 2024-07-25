@@ -2,51 +2,10 @@ import React from "react";
 
 const Carousel = () => {
   return (
-    <div>
-      <div className="carousel rounded-box">
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-            alt="Burger"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-            alt="Burger"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-            alt="Burger"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-            alt="Burger"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-            alt="Burger"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
-            alt="Burger"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-            alt="Burger"
-          />
-        </div>
-      </div>
+    <div className="flex-col justify-center items-center py-5 px-10">
+      <h1 className="flex-col justify-center items-center">HI I'M RIZKY AWALUDIN <span className="text-blue-500">FRONTEND</span> PROGRAMMING</h1>
+      <p>saya adalah mahasiswa Teknologi Informasi yang senang mengeksplorasi teknologi baru dan menciptakan solusi inovatif. Melalui portofolio ini, saya ingin menunjukkan keterampilan dan pengetahuan saya dalam bidang teknologi informasi</p>
+
     </div>
   );
 };

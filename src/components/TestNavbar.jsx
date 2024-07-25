@@ -5,7 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 const TestNavbar = () => {
   return (
-    <div className="flex justify-between items-center px-4 py-2 border-b-2 border-base-300 mb-5">
+    <div className="flex justify-between items-center px-4 py-2 border-b-2 border-base-300 mb-5 text-white  bg-blue-500">
       <div>
         <div
           tabIndex={0}
@@ -15,28 +15,28 @@ const TestNavbar = () => {
           <div className="w-10 rounded-full">
             <img
               alt="Tailwind CSS Navbar component"
-              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+              src=""
             />
           </div>
         </div>
       </div>
-      <div className="flex gap-5">
-        <a href="#" className="hover:text-red-100 hover:font-bold">
+      <div className="flex gap-2 font-bold">
+        <a href="Me" className="hover:text-blue-800 hover:font-bold">
           About
         </a>
-        <a href="#" className="hover:text-red-100 hover:font-bold">
+        <a href="#" className="hover:text-blue-800 hover:font-bold">
           Contact
         </a>
-        <a href="#" className="hover:text-red-100 hover:font-bold">
+        <a href="#" className="hover:text-blue-800 hover:font-bold">
           Resume
         </a>
-        <a href="#" className="hover:text-red-100">
+        <a href="#" className="hover:text-blue-800">
           <FaGithub size={25} />
         </a>
-        <a href="#" className="hover:text-red-100">
+        <a href="#" className="hover:text-blue-800">
           <SiGmail size={25} />
         </a>
-        <a href="#" className="hover:text-red-100">
+        <a href="#" className="hover:text-blue-800">
           <RiInstagramFill size={25} />
         </a>
       </div>
