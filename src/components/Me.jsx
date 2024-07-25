@@ -6,7 +6,7 @@ const Me = () => {
       <div className="w-10 rounded-full">
             <img
               alt="Tailwind CSS Navbar component"
-              src="public/1.jpg"
+              src="/1.jpg"
             />
           </div>
       <h1 className='text-center text-3xl font-bold '>About</h1>

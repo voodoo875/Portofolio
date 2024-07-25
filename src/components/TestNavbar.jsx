@@ -16,7 +16,7 @@ const TestNavbar = () => {
           <div className="w-10 rounded-full">
         <a href="/" ><img
               alt="Tailwind CSS Navbar component"
-              src="public/1.jpg"
+              src="/1.jpg"
             /></a>
           </div>
         </div>
