@@ -5,7 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 const TestNavbar = () => {
   return (
-    <div className="flex justify-between items-center px-4 py-2 border-b-2 border-base-300 mb-5 text-white  bg-blue-500">
+    <div className="flex justify-between items-center px-4 py-2 border-b-2 border-base-300 mb-5 text-white  bg-[#116466]">
       <div>
 {/* Suggested code may be subject to a license. Learn more: ~LicenseLog:4072834928. */}
       <div
@@ -34,7 +34,7 @@ const TestNavbar = () => {
         <a href="https://github.com/" className="hover:text-blue-800">
           <FaGithub size={25} />
         </a>
-        <a href="#" className="hover:text-blue-800">
+        <a href="" className="hover:text-blue-800">
           <SiGmail size={25} />
         </a>
         <a href="#" className="hover:text-blue-800">

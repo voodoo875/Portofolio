@@ -37,13 +37,13 @@ const Favstack = () => {
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-wrap text-[20px] ">its tech time</h1>
       <h1 className="text-[30px] font-extrabold">
-        My Favorite <span className="text-blue-500">Stack</span>{" "}
+        My Favorite <span className="text-[#116466]">Stack</span>{" "}
       </h1>
-      <div className="flex gap-2 flex-wrap my-5 mx-2 items-center justify-center">
+      <div className="flex gap-2 flex-wrap my-5 mx-2 items-center justify-center ">
         {fav.map((i) => (
-          <div className="card w-96 bg-[#116466] shadow-xl ">
+          <div className="card w-96 bg-[#2C3531] shadow-xl ">
           <div className="card-body">
-            <h2 className="text-xl text-teal-400 card-title">{i.name}</h2>
+            <h2 className="text-xl text-teal-400 card-title font-extrabold">{i.name}</h2>
             <p>{i.deskripsi}</p>
           </div>
         </div>

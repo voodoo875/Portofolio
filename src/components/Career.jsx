@@ -29,12 +29,12 @@ const Career = () => {
       <div className="text-center">
         <h1 className="text-[20px]">Career</h1>
         <h5 className="text-[30px] font-extrabold">
-          My Work <span className="text-blue-500">Specaility</span>
+          My Work <span className="text-[#116466]">Specaility</span>
         </h5>
       </div>
       <div className="flex gap-2 flex-wrap my-5 mx-2 items-center justify-center">
         {karir.map((i) => (
-          <div className="card w-96 bg-base-300 shadow-xl ">
+          <div className="card w-96 bg-[#2c3531] shadow-xl ">
             <div className="card-body">
               <div className="flex items-center gap-2">
                 {i.logo}
