@@ -41,9 +41,9 @@ const Favstack = () => {
       </h1>
       <div className="flex gap-2 flex-wrap my-5 mx-2 items-center justify-center">
         {fav.map((i) => (
-          <div className="card w-96 bg-base-300 shadow-xl ">
+          <div className="card w-96 bg-[#116466] shadow-xl ">
           <div className="card-body">
-            <h2 className="card-title">{i.name}</h2>
+            <h2 className="text-xl text-teal-400 card-title">{i.name}</h2>
             <p>{i.deskripsi}</p>
           </div>
         </div>

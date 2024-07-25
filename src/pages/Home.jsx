@@ -4,6 +4,7 @@ import Carousel from "../components/Carousel";
 import Favstack from "../components/Favstack";
 import Footer from "../components/Footer";
 import Me from "../components/Me";
+//import resume from"../components/Resume";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
     <Career />
     <Favstack/>
     <Me/>
+{/* Suggested code may be subject to a license. Learn more: ~LicenseLog:338201967. */}
     {/* <Footer/> */}
   </div>;
 };
